@@ -7,7 +7,7 @@ class Test(unittest.TestCase):
         # cria uma instância do unittest, precisa do nome "setUp"
         self.app = app.test_client()
 
-        # envia uma requisicao GET para a URL
+        # envia uma requisicao GET para a URLssss
         self.result = self.app.get('/')
 
     def test_requisicao(self):
